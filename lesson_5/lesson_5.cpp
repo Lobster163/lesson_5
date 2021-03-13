@@ -14,6 +14,10 @@ int main()
     const Pair<double, int> p4(3.4, 5);
     cout << "Pair: " << p4.first() << ' ' << p4.second() << '\n';
 
+    StringValuePair<int> svp("Amazing", 7);
+    std::cout << "Pair: " << svp.first() << ' ' << svp.second() << '\n';
+
+
     return 0;
 }
 
