@@ -7,6 +7,14 @@ int main()
 
     const Pair1<double> p2(3.4, 7.8);
     cout << "Pair: " << p2.first() << ' ' << p2.second() << '\n';
+
+    Pair<int, double> p3(6, 7.8);
+    cout << "Pair: " << p3.first() << ' ' << p3.second() << '\n';
+
+    const Pair<double, int> p4(3.4, 5);
+    cout << "Pair: " << p4.first() << ' ' << p4.second() << '\n';
+
+    return 0;
 }
 
 
