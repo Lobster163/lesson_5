@@ -17,6 +17,7 @@ int main()
     StringValuePair<int> svp("Amazing", 7);
     std::cout << "Pair: " << svp.first() << ' ' << svp.second() << '\n';
 
+    //4 punkt -> https://github.com/Lobster163/BlackJack
 
     return 0;
 }
